@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(45, 41, 61);
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+
+.title span {
+    display: block;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & :hover {
+        font-size: 20px;
+        transition: font-size 0.2s ease, color 0.2s ease;
+        color: rgb(53, 53, 53);
+    }
+}
+
+.center {
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+}
+
+.header {
+    background-image:url(https://preview.redd.it/just-remembered-i-havent-done-an-ultra-wide-screen-shot-in-v0-55e9o7uigdfd1.png?auto=webp&s=9fd038ade831f7b6bf5a67eff3bdacf50a3dc4f9);
+    background-size: 100%;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 10px;
+    color: aliceblue;
+}
+
+.login {
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login:hover {
+    font-size: 17px;
+    transition: font-size 0.2s ease, color 0.2s ease;
+    background-color: aliceblue;
+}
