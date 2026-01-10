@@ -4,7 +4,7 @@ body {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
   color: rgb(45, 41, 61);
   -webkit-text-stroke: 0.5px white;
@@ -19,13 +19,20 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 
   & :hover {
-    font-size: 20px;
-    transition: font-size 0.2s ease, color 0.2s ease;
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
     color: rgb(219, 118, 23); /*Cambio de tamaño y color al pasar el raton por encima*/
+    background-color: rgba(83, 63, 46, 0.5);
   }
+}
+
+.listitems {
+  font-size: 50px;
+  background-color: rgba(46, 46, 46, 0.5) ;
+  border-radius: 3px;
 }
 
 .center {
@@ -48,7 +55,7 @@ body {
 
 .login {
   align-self: flex-start; /*Para que se coloque arriba a la derecha*/
-  background-color: white;
+  background-color: rgba(255 255 255 0.4);
   color: black;
   padding: 8px 16px;
   border-radius: 8px; /*Para que se redondee el boton*/
@@ -57,7 +64,15 @@ body {
 }
 
 .login:hover {
-  font-size: 17px;
-  transition: font-size 0.2s ease, color 0.2s ease;
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
   background-color: aliceblue; /*Cambio de tamaño suavizado y color al pasar por encima*/
+}
+
+.parrafo1 {
+  font-size: 40px;
+  text-align: center;
+  color: aliceblue;
+  background-color:rgb(83, 73, 64);
+  padding: 0px;
 }
