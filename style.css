@@ -9,6 +9,7 @@ body {
   background-color: rgb(27, 18, 14);
   background-image: url(https://preview.redd.it/x428m90hsqc41.jpg?auto=webp&s=1919acd02748669b40d3ccbdf53bae6fca2489e9);
   background-size: 100%;
+  min-height: 130vh;
 }
 
 .title {
