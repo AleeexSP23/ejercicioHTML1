@@ -1,6 +1,14 @@
 body {
   margin: 0;
   padding: 0; /*Para que la imagen o color de fondo no deje bordes blancos*/
+  background-color: rgb(27, 18, 14);
+}
+.bodymap {
+    margin: 0;
+  padding: 0; /*Para que la imagen o color de fondo no deje bordes blancos*/
+  background-color: rgb(27, 18, 14);
+  background-image: url(https://preview.redd.it/x428m90hsqc41.jpg?auto=webp&s=1919acd02748669b40d3ccbdf53bae6fca2489e9);
+  background-size: 100%;
 }
 
 .title {
@@ -33,6 +41,8 @@ body {
   font-size: 50px;
   background-color: rgba(46, 46, 46, 0.5) ;
   border-radius: 3px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .center {
@@ -51,11 +61,22 @@ body {
   align-items: center;
   padding: 0 0 0 10px;
   color: aliceblue;
+  border: n;
+}
+.headermap {
+  background-size: 100%;
+  background-position: 80%; /*Imagen de fondo de cabezara y ajustes de escala y posición*/
+  display: flex; /*Para que el header esté en horizontal*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 10px;
+  color: aliceblue;
+  border: n;
 }
 
 .login {
   align-self: flex-start; /*Para que se coloque arriba a la derecha*/
-  background-color: rgba(255 255 255 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   color: black;
   padding: 8px 16px;
   border-radius: 8px; /*Para que se redondee el boton*/
@@ -70,9 +91,9 @@ body {
 }
 
 .parrafo1 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
-  color: aliceblue;
-  background-color:rgb(83, 73, 64);
-  padding: 0px;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
